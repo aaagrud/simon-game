@@ -6,6 +6,7 @@ A simple Simon game implementation using HTML, CSS, and JavaScript.
 
 - [Description](#description)
 - [Stack](#stack)
+- [Live Link](#live-link)
 - [Screenshot](#screenshot)
 - [How to Play](#how-to-play)
 - [Installation](#installation)
@@ -22,6 +23,8 @@ This Simon game is a memory game where players have to repeat the sequence of co
 - JavaScript
 - jQuery
 
+## Live Link
+[Click here!](https://aaagrud.github.io/simon-game/)
 
 ## Screenshot
 ![image](https://github.com/aaagrud/simon-game/assets/118443621/48b578d0-e81f-468f-8583-7acbec534152)
