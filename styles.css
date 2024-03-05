@@ -1,0 +1,62 @@
+body {
+  text-align: center;
+  background-color: #073b4c;
+}
+
+#level-title {
+  font-weight: bold;
+  font-family: 'Ojuju', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #fff4f1; 073b4c
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  color: white;
+  border-radius: 60px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transform: perspective(1000px) rotateY(0deg); /* Start with no rotation */
+  transition: transform 0.5s;
+}
+
+.btn:hover {
+  transform: perspective(1000px) rotateY(-20deg); /* Rotate on hover */
+}
+
+
+.game-over {
+  background-color: #f47068;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #ffb3ae;
+}
+
+.green {
+  background-color: #f47068; 
+}
+
+.blue {
+  background-color: #1697a6;
+}
+
+.yellow {
+  background-color: #ffc24b;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
